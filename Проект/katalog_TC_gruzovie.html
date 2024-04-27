@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Document</title>
+    </head>
+<body>
+    <header>
+        <a href="#">
+            <img src="SVGs/logo.svg" alt="" id="logo">
+        </a>
+        <nav class="nav_header">
+            <a href="">О нас</a>
+            <a href="">Каталог</a>
+            <a href="">Список ТС</a>
+            <button id="header_akkord">Ещё <img src="SVGs/triangle.svg" alt=""></button>
+        </nav>
+        <button id="go_profile">Профиль</button>
+    </header>
+    <main>
+        <section class="akkordion_spisokTC">
+            <nav class="spisok_ikonokTC">
+                <a href=""><img src="SVGs/svg_truck.svg" alt=""><p>Грузовые</p></a>
+                <a href=""><img src="SVGs/svg_car.svg" alt=""><p>Легковые</p></a>
+                <a href=""><img src="SVGs/svg_plane.svg" alt=""><p>Воздушные</p></a>
+                <a href=""><img src="SVGs/svg_boat.svg" alt=""><p>Плавательные</p></a>
+                <a href=""><img src="SVGs/svg_motocycle.svg" alt=""><p>Мотоциклетные</p></a>
+            </nav>
+            <article>
+                <button class="svernuti">
+                    <p>Свернуть</p>
+                </button>
+            </article>
+        </section>
+        <section class="katalogPage_TC">
+            <aside class="filtr_transporta">
+                <h4>Фильтр</h4>
+                <article class="filtr_transporta_stoimost">
+                    <h4>Стоимость</h4>
+                    <section class="stoimost_input">
+                        <article class="stoimost_from">
+                            <p>От:</p>
+                            <input type="text" placeholder="Введите цену">
+                        </article>
+                        <article class="stoimost_including">
+                            <p>До:</p>
+                            <input type="text" placeholder="Введите цену">
+                        </article>
+                    </section>
+                </article>
+                <article class="marks_TC">
+                    <h4>Бренды ТС</h4>
+                    <section class="checkboxWithTC">
+                        <input type="checkbox">
+                        <h4>Audi</h4>
+                    </section>
+                    <section class="checkboxWithTC">
+                        <input type="checkbox">
+                        <h4>Lamborghini</h4>
+                    </section>
+                    <section class="checkboxWithTC">
+                        <input type="checkbox">
+                        <h4>Lexus</h4>
+                    </section>
+                    <section class="checkboxWithTC">
+                        <input type="checkbox">
+                        <h4>Mercedec</h4>
+                    </section>
+                    <section class="checkboxWithTC">
+                        <input type="checkbox">
+                        <h4>Rolls-Royce</h4>
+                    </section>
+                    <section class="checkboxWithTC">
+                        <input type="checkbox">
+                        <h4>Volvo</h4>
+                    </section>
+                    <section class="checkboxWithTC">
+                        <input type="checkbox">
+                        <h4>BMV</h4>
+                    </section>
+                </article>
+                <button class="apply_filter"><strong>Применить</strong></button>
+            </aside>
+            <article class="kindTransportKatalog">
+                <h2>Грузовые ТС</h2>
+                <section class="listCardsInKatalog">
+
+                    <article class="kalalog_card_car">
+                        <section class="fotos_card_car_katalog">
+                            <img src="Images/png_truck_1.png" alt="">
+                            <article>
+                                <img src="Images/png_truck_2.png" alt="">
+                                <img src="Images/png_truck_3.png" alt="">
+                                <img src="Images/png_truck_4.png" alt="">
+                                <img src="Images/png_truck_5.png" alt="">
+                            </article>
+                        </section>
+                        <section class="katalog_text_about_card_car">
+                            <article class="title_card_car">
+                                <section class="marka_car_is_kataloga">
+                                    <img src="SVGs/volvo35x35.svg" alt="">
+                                    <h3>Volvo</h3>
+                                </section>
+                                <h3>FH-TRUCK 4x2</h3>
+                            </article>
+                            <article class="description_card_car_katalog">
+                                <section class="mainInfo_car_card">
+                                    <article>
+                                        <h4>Цена:</h4>
+                                        <p>5.400.000 руб.</p>
+                                    </article>
+                                    <article>
+                                        <h4>Срок поставки:</h4>
+                                        <p>15 дней</p>
+                                    </article>
+                                    <article>
+                                        <h4>Год:</h4>
+                                        <p>2023</p>
+                                    </article>
+                                    <article>
+                                        <h4>Состояние:</h4>
+                                        <p>Б/У</p>
+                                    </article>
+                                </section>
+                                <section class="opisanie_card_car">
+                                    <h4>Описание</h4>
+                                    <p class="text_descr">Прoдаeтcя ceдельный тягач Vоlvо FН-TRUСK 4х2. На нашeй площaдкe, наxoдящeйcя в 800 мeтрах oт МKАД, большoй выбор сeдeльныx тягачей и пoлуприцeп</p>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="heart_favorite">
+                            <button id="addToFavorite">
+                                <svg width="35" height="31" viewBox="0 0 35 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M30.6096 4.387C29.8521 3.63025 28.9528 3.02994 27.9629 2.62037C26.9731 2.21081 25.9121 2 24.8406 2C23.7691 2 22.7082 2.21081 21.7183 2.62037C20.7284 3.02994 19.8291 3.63025 19.0716 4.387L17.4996 5.95678L15.9276 4.387C14.3976 2.85914 12.3224 2.00079 10.1586 2.00079C7.9948 2.00079 5.91963 2.85914 4.3896 4.387C2.85956 5.91486 2 7.98708 2 10.1478C2 12.3085 2.85956 14.3807 4.3896 15.9086L5.96161 17.4784L17.4996 29L29.0376 17.4784L30.6096 15.9086C31.3674 15.1522 31.9686 14.2541 32.3787 13.2657C32.7889 12.2772 33 11.2178 33 10.1478C33 9.07785 32.7889 8.01838 32.3787 7.02992C31.9686 6.04147 31.3674 5.14339 30.6096 4.387V4.387Z" stroke="#BA2350" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </section>
+                    </article>
+                    <article class="kalalog_card_car">
+                        <section class="fotos_card_car_katalog">
+                            <img src="Images/png_truck_1.png" alt="">
+                            <article>
+                                <img src="Images/png_truck_2.png" alt="">
+                                <img src="Images/png_truck_3.png" alt="">
+                                <img src="Images/png_truck_4.png" alt="">
+                                <img src="Images/png_truck_5.png" alt="">
+                            </article>
+                        </section>
+                        <section class="katalog_text_about_card_car">
+                            <article class="title_card_car">
+                                <section class="marka_car_is_kataloga">
+                                    <img src="SVGs/volvo35x35.svg" alt="">
+                                    <h3>Volvo</h3>
+                                </section>
+                                <h3>FH-TRUCK 4x2</h3>
+                            </article>
+                            <article class="description_card_car_katalog">
+                                <section class="mainInfo_car_card">
+                                    <article>
+                                        <h4>Цена:</h4>
+                                        <p>5.400.000 руб.</p>
+                                    </article>
+                                    <article>
+                                        <h4>Срок поставки:</h4>
+                                        <p>15 дней</p>
+                                    </article>
+                                    <article>
+                                        <h4>Год:</h4>
+                                        <p>2023</p>
+                                    </article>
+                                    <article>
+                                        <h4>Состояние:</h4>
+                                        <p>Б/У</p>
+                                    </article>
+                                </section>
+                                <section class="opisanie_card_car">
+                                    <h4>Описание</h4>
+                                    <p class="text_descr">Прoдаeтcя ceдельный тягач Vоlvо FН-TRUСK 4х2. На нашeй площaдкe, наxoдящeйcя в 800 мeтрах oт МKАД, большoй выбор сeдeльныx тягачей и пoлуприцeп</p>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="heart_favorite">
+                            <button id="addToFavorite">
+                                <svg width="35" height="31" viewBox="0 0 35 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M30.6096 4.387C29.8521 3.63025 28.9528 3.02994 27.9629 2.62037C26.9731 2.21081 25.9121 2 24.8406 2C23.7691 2 22.7082 2.21081 21.7183 2.62037C20.7284 3.02994 19.8291 3.63025 19.0716 4.387L17.4996 5.95678L15.9276 4.387C14.3976 2.85914 12.3224 2.00079 10.1586 2.00079C7.9948 2.00079 5.91963 2.85914 4.3896 4.387C2.85956 5.91486 2 7.98708 2 10.1478C2 12.3085 2.85956 14.3807 4.3896 15.9086L5.96161 17.4784L17.4996 29L29.0376 17.4784L30.6096 15.9086C31.3674 15.1522 31.9686 14.2541 32.3787 13.2657C32.7889 12.2772 33 11.2178 33 10.1478C33 9.07785 32.7889 8.01838 32.3787 7.02992C31.9686 6.04147 31.3674 5.14339 30.6096 4.387V4.387Z" stroke="#BA2350" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </section>
+                    </article>
+                    <article class="kalalog_card_car">
+                        <section class="fotos_card_car_katalog">
+                            <img src="Images/png_truck_1.png" alt="">
+                            <article>
+                                <img src="Images/png_truck_2.png" alt="">
+                                <img src="Images/png_truck_3.png" alt="">
+                                <img src="Images/png_truck_4.png" alt="">
+                                <img src="Images/png_truck_5.png" alt="">
+                            </article>
+                        </section>
+                        <section class="katalog_text_about_card_car">
+                            <article class="title_card_car">
+                                <section class="marka_car_is_kataloga">
+                                    <img src="SVGs/volvo35x35.svg" alt="">
+                                    <h3>Volvo</h3>
+                                </section>
+                                <h3>FH-TRUCK 4x2</h3>
+                            </article>
+                            <article class="description_card_car_katalog">
+                                <section class="mainInfo_car_card">
+                                    <article>
+                                        <h4>Цена:</h4>
+                                        <p>5.400.000 руб.</p>
+                                    </article>
+                                    <article>
+                                        <h4>Срок поставки:</h4>
+                                        <p>15 дней</p>
+                                    </article>
+                                    <article>
+                                        <h4>Год:</h4>
+                                        <p>2023</p>
+                                    </article>
+                                    <article>
+                                        <h4>Состояние:</h4>
+                                        <p>Б/У</p>
+                                    </article>
+                                </section>
+                                <section class="opisanie_card_car">
+                                    <h4>Описание</h4>
+                                    <p class="text_descr">Прoдаeтcя ceдельный тягач Vоlvо FН-TRUСK 4х2. На нашeй площaдкe, наxoдящeйcя в 800 мeтрах oт МKАД, большoй выбор сeдeльныx тягачей и пoлуприцeп</p>
+                                </section>
+                            </article>
+                        </section>
+                        <section class="heart_favorite">
+                            <button id="addToFavorite">
+                                <svg width="35" height="31" viewBox="0 0 35 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M30.6096 4.387C29.8521 3.63025 28.9528 3.02994 27.9629 2.62037C26.9731 2.21081 25.9121 2 24.8406 2C23.7691 2 22.7082 2.21081 21.7183 2.62037C20.7284 3.02994 19.8291 3.63025 19.0716 4.387L17.4996 5.95678L15.9276 4.387C14.3976 2.85914 12.3224 2.00079 10.1586 2.00079C7.9948 2.00079 5.91963 2.85914 4.3896 4.387C2.85956 5.91486 2 7.98708 2 10.1478C2 12.3085 2.85956 14.3807 4.3896 15.9086L5.96161 17.4784L17.4996 29L29.0376 17.4784L30.6096 15.9086C31.3674 15.1522 31.9686 14.2541 32.3787 13.2657C32.7889 12.2772 33 11.2178 33 10.1478C33 9.07785 32.7889 8.01838 32.3787 7.02992C31.9686 6.04147 31.3674 5.14339 30.6096 4.387V4.387Z" stroke="#BA2350" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </section>
+                    </article>
+
+                </section>
+            </article>
+        </section>
+        <button id="continueView"><p>Продолжить</p><img src="SVGs/svg_continueView.svg" alt=""></button>
+    </main>
+</body>
+</html>
